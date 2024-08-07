@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: random-number-generator
+    build: .
+    ports:
+      - "9453:5000"
+    restart: always
